@@ -91,17 +91,11 @@
 }
 
 /* CAROUSEL */
-.carousel{
-    margin-top: -100px;
-}
 .carousel-caption .firstH1{
   color:   white;
   line-height: fit-content;
   text-align: left;
-  /* font-family: 'Poppins', sans-serif; */
-  /* font-family: 'Bree Serif', serif; */
   font-family: 'Pacifico', cursive;
-  /* font-family: 'Righteous', cursive; */
   font-weight: 500;
   border-width: 90px;
   text-decoration: underline;
@@ -116,7 +110,6 @@
 }
 .carousel-caption .firstP{
   font-family: 'Lobster', cursive;
-  /* font-family: 'Pacifico', cursive; */
   color: #ffee00;
   text-align: left;
 }

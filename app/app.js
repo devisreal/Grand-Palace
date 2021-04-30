@@ -60,13 +60,13 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 
 
 myModule.controller('DishesController', ['$scope', function($scope){
-    
+    $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
 
 myModule.controller('AboutController', ['$scope', function($scope){
-    
+    $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
 
 myModule.controller('ContactController', ['$scope', function($scope){
-    
+   $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])

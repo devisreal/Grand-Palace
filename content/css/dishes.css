@@ -1,0 +1,32 @@
+*{
+        text-decoration: none;
+    }
+    .head-text{
+        
+        width: auto;
+        height: 550px;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
+    .head-text-h1{
+        color: white;
+        font-family: Sofia;
+        font-weight: bold;
+        font-size: 2.9rem;
+        text-align: center;
+        padding-top: 18%;
+    }
+    .head-text-linker{
+        color: white;
+        text-align: center;
+        font-family: 'Bree Serif', serif;
+    }
+    .head-text-linker a{
+        text-decoration: none;
+        color: white;
+    }
+    .head-text-linker a:hover{
+        text-decoration: underline;
+        transition: 0.3s;
+        text-decoration-color: #ff9800;
+    }
