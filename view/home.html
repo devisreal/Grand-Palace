@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="content\css\home.css">
+
+<!-- data-bs-ride="carousel" -->
+<div class="row slider">
+    <div id="carouselExampleCaptions" class="carousel carousel-light slide carousel-fade" data-bs-ride="carousel" >
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000" >
+      <img src="{{image1.carousel}}" class="d-block w-100 img-fluid"  alt="..."  >
+      <div class="carousel-caption d-md-block mb-lg-5 pb-lg-5">
+        <h1 class="firstH1 mb-lg-3">Welcome To Grand Palace</h1>
+        <h3 class="firstP">Paradise on your plate...</h3>
+      </div>
+    </div>
+    <div class="carousel-item " data-bs-interval="5000">
+      <img src="{{image2.carousel}}" class="d-block w-100 img-fluid" alt="..." >
+      <div class="carousel-caption d-md-block">
+        <h5 class="firstH1 mb-lg-3" style="color: white;text-decoration:underline;text-decoration-color: #ff9800;">Enjoy a Taste of Heaven in every plate </h5>
+        <h3 class="firstP" ></h3>
+      </div>
+    </div>
+    <div class="carousel-item " data-bs-interval="5000">
+      <img src="{{image3.carousel}}" class="d-block w-100 img-fluid" alt="..." >
+      <div class="carousel-caption d-md-block">
+        <h5 class="firstH1 mb-lg-3" style="text-decoration-color:#ff9800;" ><span style="font-family: 'Lobster', cursive;">A</span> healthy option for you !</h5>
+        <h3 class="firstP" style="color: white;text-shadow: 7px 5px  10px #03fc03;">Meals created with extra care</h3>
+      </div>
+    </div>
+    <div class="carousel-item " data-bs-interval="5000">
+      <img src="{{image4.carousel}}" class="d-block w-100 img-fluid" alt="..." >
+      <div class="carousel-caption d-md-block">
+        <h5 class="firstH1 mb-lg-3" >Our Team <i class="fas fa-users"></i></h5>
+        <h3 class="firstP" style="color: #fbff00;">Ever reliabe and with excellent performance</h3>
+      </div>
+    </div>
+    <div class="carousel-item " data-bs-interval="5000">
+      <img src="{{image5.carousel}}" class="d-block w-100 img-fluid" alt="..." >
+      <div class="carousel-caption d-md-block">
+        <h5 class="firstH1 mb-lg-3" style="color: #ff9800; text-decoration-color: white;text-decoration-style: wavy;" >Made with Love <i class='bx bxs-heart-circle bx-tada' style="color: white;text-decoration: none;"  ></i> </h5>
+        <h3 class="firstP" style="color: #03fc03;" >Provides you with an exquisite kitchen </h3>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<!-- CARDS -->
+
+
+<div class="our-stock mt-5">
+  <h1 data-aos="fade-right" data-aos-easing="ease-in-sine">OUR STOCK</h1>
+</div>
+<div class="search-box mt-5 mb-0">
+  <form class="d-flex">
+    <span><input class="form-control ms-lg-5" type="search" ng-model="searchFoods" placeholder="Search for you favourite meal" aria-label="Search"></span>
+    <span class="ms-lg-5"><button class="ms-lg-2 btn btn-success " type="submit">Search</button></span>
+  </form>
+</div>
+<!-- CARD  -->
+<div class="row mt-lg-5 mt-md-5 mt-sm-0 mb-5 mx-lg-0 mx-md-0 mx-sm-1 cards" >
+    <div class="col-12 row  g-lg-5 g-md-5 g-sm-5 mx-lg-2 mx-md-5 mx-sm-3">
+        <div class="card mx-lg-3 mx-md-3 mx-sm-2" ng-repeat="card in cards | filter: searchFoods"  style="width: 18rem;" data-aos="zoom-out-up" data-aos-easing="ease-in-sine" data-aos-duration="700" >
+          <img src="{{card.image}}" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h4 class="card-title ">{{card.name}}</h4>
+            <p class="card-text mt-3">{{card.price | currency: "₦"}} </p>
+            <a href="# " class="btn btn-success mb-0">Order Now !</a>
+          </div>
+        </div>
+    </div>
+
+</div>
