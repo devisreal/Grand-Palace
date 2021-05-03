@@ -31,6 +31,6 @@
     }
     .head-text-linker a:hover{
         text-decoration: underline;
-        transition: 0.3s;
+        transition: 0.1s;
         text-decoration-color: #ff9800;
     }

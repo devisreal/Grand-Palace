@@ -97,7 +97,8 @@
   color:   white;
   line-height: fit-content;
   text-align: left;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive,;
+  /* font-family: Sofia; */
   font-weight: 500;
   border-width: 90px;
   text-decoration: underline;
@@ -118,74 +119,4 @@
 
 
 /* CARDS */
-.our-stock h1{
-    text-align: center;
-    color: #ff9800;
-    font-family: 'Bree Serif', serif;
-    /* font-size: rem; */
-}
-.search-box{
-    margin: auto;
-    width: fit-content;
-}
-.search-box form span input{
-    min-width: 350px;
-    margin: auto;
-}
-.search-box form span input::placeholder{
-    font-family: 'Poppins', sans-serif;
-}
-.search-box form span button{
-    /* color: #ff9800; */
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-}
-.search-box form span button:hover{
-    color: #ff9800;
-    background-color: #198754;
-}
-.cards{
-    margin: auto;
-    /* width: fit-content; */
-}
-.card{
-    border: 1px solid #198754;
-    box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.45);
-    cursor: pointer;
-    transition: 0.3s;
-}
-.card:hover{
-    border: none;
-    border-bottom: 3px solid #ff9800;
-    transform: none;
-    box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.45);
-    transform: scale(1.02);
-    transition: 0.3s;
-}
-.card img{
-    height: 300px;
-    width: 240px;
-}
-.card h4{
-    /* font-family: 'Bree Serif', serif; */
-    font-family: 'Acme', sans-serif;
-    /* margin: 0px -15px; */
-    /* text-align: center; */
-    /* width: 300px; */
-    color: #ff9800;
-}
-.card p{
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    width: fit-content;
 
-}
-.btn{
-    font-weight: 500;
-    font-family: 'Bree Serif', serif;
-
-}
-/* .btn:hover{
-    color: #ff9800;
-    background-color: #ff9800;
-} */
