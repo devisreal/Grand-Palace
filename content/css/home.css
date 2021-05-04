@@ -1,7 +1,6 @@
 .active1{
   text-decoration: underline;
 }
-
 /* MEDIA__QUERIES */
 @media screen and (max-width: 1370px) {
   .carousel-caption .firstH1{
@@ -47,6 +46,14 @@
     font-size: 25px;
   }
 }
+@media screen and (max-width: 991px) {
+    .spices-img{
+      align-content: center;
+      align-self: center;
+      align-items: center;
+      padding: 0px 60px;
+    }
+  }
 @media screen and (max-width: 768px) {
   .carousel-caption .firstH1{
     margin-top: -150px;
@@ -81,6 +88,14 @@
 
   }
 }
+@media screen and (max-width: 575px){
+    .cardo-body{
+      margin-top: 50px;
+    }
+    .card-title{
+      text-align: center;
+    }
+  }
 @media screen and (max-width: 500px){
   .carousel-caption .firstH1{
     margin-left: -50px;
@@ -97,8 +112,7 @@
   color:   white;
   line-height: fit-content;
   text-align: left;
-  font-family: 'Pacifico', cursive,;
-  /* font-family: Sofia; */
+  font-family: 'Pacifico', cursive;
   font-weight: 500;
   border-width: 90px;
   text-decoration: underline;
@@ -120,3 +134,22 @@
 
 /* CARDS */
 
+.card-title{
+    /* font-family: poppins; */
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8rem;
+  }
+.card-text{
+  text-align: justify;
+  font-family: poppins;
+}
+
+/* QUALITIES */
+
+  .qualities{
+    margin-top: 150px;
+  }
+  .qualities h5{
+    font-family: poppins;
+    width: 100%;
+  }

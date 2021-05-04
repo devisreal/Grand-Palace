@@ -1,6 +1,9 @@
 .active3{
   text-decoration: underline;
 }
+body{
+  overflow-x: hidden;
+}
 *{
         text-decoration: none;
     }

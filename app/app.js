@@ -31,30 +31,33 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.image3 = {carousel : 'content/img/Carousel/Depositphotos_198022492_s-2019.jpg'}
     $scope.image4 = {carousel : 'content/img/Carousel/pexels-andrea-piacquadio-3801426.jpg'}
     $scope.image5 = {carousel : 'content/img/Carousel/toa-heftiba-5JeTin55H9U-unsplash.jpg'}
+
+    $scope.spices ={image: 'content/img/Home_Page/restaurant.jpg'}
+    
     // Cards------OUR DISHES PAGE === Young_Justice_ S1E26
-    $scope.cards = [
-        {
-            name: "Jollof Rice and Chicken",
-            price: 2500,
-            image: "content/img/freshimages/pexels-rajesh-tp-1624487.jpg"
+    // $scope.cards = [
+    //     {
+    //         name: "Jollof Rice and Chicken",
+    //         price: 2500,
+    //         image: "content/img/freshimages/pexels-rajesh-tp-1624487.jpg"
             
-        },
-        {
-            name: "Pounded Yam with Vegetable Soup",
-            price: 3000,
-            image: "content/img/freshimages/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg"
-        },
-        {
-            name: "White Rice, Pasta with Chicken",
-            price: 1200,
-            image: "content/img/freshimages/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg"
-        },
-        {
-            name: "Amala with Ewedu Soup",
-            price: 1250,
-            image: "content/img/freshimages/amala_ewedu.jpg"
-        }
-    ]
+    //     },
+    //     {
+    //         name: "Pounded Yam with Vegetable Soup",
+    //         price: 3000,
+    //         image: "content/img/freshimages/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg"
+    //     },
+    //     {
+    //         name: "White Rice, Pasta with Chicken",
+    //         price: 1200,
+    //         image: "content/img/freshimages/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg"
+    //     },
+    //     {
+    //         name: "Amala with Ewedu Soup",
+    //         price: 1250,
+    //         image: "content/img/freshimages/amala_ewedu.jpg"
+    //     }
+    // ]
 
 }])
 
