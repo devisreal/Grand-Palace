@@ -31,9 +31,22 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.image3 = {carousel : 'content/img/Carousel/Depositphotos_198022492_s-2019.jpg'}
     $scope.image4 = {carousel : 'content/img/Carousel/pexels-andrea-piacquadio-3801426.jpg'}
     $scope.image5 = {carousel : 'content/img/Carousel/toa-heftiba-5JeTin55H9U-unsplash.jpg'}
-
     $scope.spices ={image: 'content/img/Home_Page/restaurant.jpg'}
-    
+    $scope.menu = {icon: 'content/icons/menu.png'}
+    $scope.fastfood = {icon: 'content/icons/fast-food.png'}
+    $scope.tray = {icon: 'content/icons/fast.png'}
+    // specialties
+    $scope.snack = {specimen: 'content/img/Home_Page/fastfood.jpg'}
+    $scope.foreign = {specimen: 'content/img/Home_Page/foreign.jpg'}
+    $scope.local = {specimen: 'content/img/Home_Page/J-rice.jpg'}
+    $scope.drinks = {specimen: 'content/img/Home_Page/Wine.jpg'}
+    // our chef
+    $scope.lukesimon ={image: 'content/img/Home_Page/luke-simon.jpg'}
+    $scope.rebecca ={image: 'content/img/Home_Page/rebecca.jpg'}
+    $scope.martinyoung ={image: 'content/img/Home_Page/martin-young.jpg'}
+    $scope.johnsmith = {image: 'content/img/Home_Page/john-smith.jpg'}
+
+
     // Cards------OUR DISHES PAGE === Young_Justice_ S1E26
     // $scope.cards = [
     //     {
