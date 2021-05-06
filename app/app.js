@@ -47,8 +47,9 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.johnsmith = {image: 'content/img/Home_Page/john-smith.jpg'}
     // head chef
     $scope.headchef ={image: 'content/img/Home_Page/head-chef.jpg'}
-    $scope.headchefbg = {image: 'content/img/Home_Page/pexels-lumn-604969.jpg'}
     $scope.headchefbg = {image: 'content/img/Home_Page/pexels-brigitte-tohm-239581.jpg'}
+    // reservation
+    $scope.reservation = {image: 'content/img/Home_Page/pexels-lumn-604969.jpg'}
 
     // Cards------OUR DISHES PAGE === Young_Justice_ S1E26
     // $scope.cards = [
