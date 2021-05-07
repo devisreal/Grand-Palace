@@ -204,13 +204,79 @@
     margin-top: 180px;
     background-repeat: no-repeat;
     background-size: cover;
+    /* height: 1000px; */
     background-attachment: fixed;
   }
+  .form{
+      border: 3px solid white;
+      padding: 0px 30px;
+      box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);;
+      border-radius: 10px;
+      background-color: black;
+      transform: scaleZ(1.05);
+      /* margin: 40px 0px; */
+    }
+    .valid{
+      width: 600px;
+      flex-wrap: wrap;
+    }
+    form h6{
+      display: inline-block
+    }
+
+    .form input::placeholder{
+      font-family: cursive;
+    }
+    label{
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      display: inline-block;
+    }
+    h1{
+      display: inline;
+      font-size: 20px;
+      padding-left: 5px;
+      color: red;
+      font-weight: 700;
+    }
+    .form-label{
+      margin: 10px 0px;
+    }
 </style>
 <!-- form -->
 <div class="row reservation " style="width: 100%;background-image: url({{reservation.image}});">
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1>Make A reservation</h1>
+  <div class="col-lg-5  col-md-12 col-sm-12 mx-sm-auto mx-lg-0 mx-md-auto">
+    <div class="row py-3 mx-sm-3 ">
+            <div class="col-12 valid" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <form class="py-5 form" >
+                    <div class="mb-3">
+                        <label id="name_label" for="name" class="form-label">Name</label>
+                        <input id="name" name="name" ng-model="name" type="text" class="form-control"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label id="email_label" for="email" class="form-label">E-mail</label>
+                        <input id="email" name="email" ng-model="email" type="email"  class="form-control"/>
+                    </div>
+
+                    <div class="mb-3 mt-3">
+                        <label for="phone_no" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" onkeypress="javascript:return isNumber(event)" ng-model="phone_no" id="phone_no"  />
+                    </div>
+                    
+                    <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div> -->
+                  <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+  </div>
 </div>
+
+
 <!-- form -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
