@@ -1,5 +1,6 @@
 .active3{
   text-decoration: underline;
+  text-decoration-thickness: 3px ;
 }
 body{
   overflow-x: hidden;

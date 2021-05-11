@@ -39,19 +39,23 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.snack = {specimen: 'content/img/Home_Page/fastfood.jpg'}
     $scope.foreign = {specimen: 'content/img/Home_Page/foreign.jpg'}
     $scope.local = {specimen: 'content/img/Home_Page/J-rice.jpg'}
-    $scope.drinks = {specimen: 'content/img/Home_Page/Wine.jpg'}
-    // our chef
+    $scope.drinks = {specimen: 'content/img/Home_Page/20210510_131037.jpg'}
+    // our chef content\img\Home_Page\
     $scope.lukesimon ={image: 'content/img/Home_Page/luke-simon.jpg'}
     $scope.rebecca ={image: 'content/img/Home_Page/rebecca.jpg'}
     $scope.martinyoung ={image: 'content/img/Home_Page/martin-young.jpg'}
     $scope.johnsmith = {image: 'content/img/Home_Page/john-smith.jpg'}
     // head chef
     $scope.headchef ={image: 'content/img/Home_Page/head-chef.jpg'}
-    $scope.headchefbg = {image: 'content/img/Home_Page/pexels-brigitte-tohm-239581.jpg'}
+    $scope.headchefbg = {image: 'content/img/Home_Page/kaboom.jpg'}
     // reservation
-    $scope.reservation = {image: 'content/img/Home_Page/pexels-lumn-604969.jpg'}
+    $scope.reservation = {image: 'content/img/Home_Page/spag.jpg'}
+    // testtimonies
+    $scope.firsttestimony = {image: 'content/img/Home_Page/Isttestimony.jpg'}
+    $scope.secondtestimony = {image: 'content/img/Home_Page/2ndtestimony.jpg'}
+    $scope.thirdtestimony = {image: 'content/img/Home_Page/3rdtestimony.jpg'}
 
-    // Cards------OUR DISHES PAGE === Young_Justice_ S1E26
+    // Cards------OUR DISHES PAGE === Young_Justice_ S1E26 
     // $scope.cards = [
     //     {
     //         name: "Jollof Rice and Chicken",
@@ -81,6 +85,9 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 
 myModule.controller('DishesController', ['$scope', function($scope){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
+    $scope.firsttestimony = {image: 'content/img/Home_Page/Isttestimony.jpg'}
+    $scope.secondtestimony = {image: 'content/img/Home_Page/2ndtestimony.jpg'}
+    $scope.thirdtestimony = {image: 'content/img/Home_Page/3rdtestimony.jpg'}
 }])
 
 myModule.controller('AboutController', ['$scope', function($scope){
