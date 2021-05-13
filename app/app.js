@@ -6,9 +6,9 @@ myModule.config(['$routeProvider', function($routeProvider){
         templateUrl: 'view/home.html',
         controller: 'HomeController'
     })
-    .when('/our-dishes',{
-        templateUrl: 'view/dishes.html',
-        controller: 'DishesController'
+    .when('/menu',{
+        templateUrl: 'view/menu.html',
+        controller: 'MenuController'
     })
     .when('/aboutus',{
         templateUrl: 'view/about.html',
@@ -83,7 +83,7 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 }])
 
 
-myModule.controller('DishesController', ['$scope', function($scope){
+myModule.controller('MenuController', ['$scope', function($scope){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
     $scope.firsttestimony = {image: 'content/img/Home_Page/Isttestimony.jpg'}
     $scope.secondtestimony = {image: 'content/img/Home_Page/2ndtestimony.jpg'}

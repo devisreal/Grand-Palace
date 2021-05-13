@@ -2,6 +2,10 @@
   text-decoration: underline;
   text-decoration-thickness: 3px ;
 }
+.nav-item .contact-link:hover{
+  transform: none;
+  transition: none;
+}
 body{
   overflow-x: hidden;
 }

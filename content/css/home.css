@@ -2,6 +2,10 @@
   text-decoration: underline;
   text-decoration-thickness: 3px ;
 }
+.nav-item .home-link:hover{
+  transform: none;
+  transition: none;
+}
 /* MEDIA__QUERIES */
 @media screen and (max-width: 1370px) {
   .carousel-caption .firstH1{
