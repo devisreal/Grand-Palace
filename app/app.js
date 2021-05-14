@@ -85,6 +85,10 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 
 myModule.controller('MenuController', ['$scope', '$http', function($scope,$http){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
+    $scope.fastfoodmenu = {icon: 'content/icons/fast-food (1).png'}
+    $scope.coffeecupmenu = {icon: 'content/icons/coffee-cup.png'}
+    $scope.healthyfoodmenu = {icon: 'content/icons/nutrition.png'}
+
 
     $http.get('http://127.0.0.1:5500/data/african.json').then(function (response) {
         console.log(response.data);
