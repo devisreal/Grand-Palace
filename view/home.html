@@ -49,11 +49,11 @@
 <!-- Spice -->
 <div class="row mt-5 pt-5  "  >
 
-  <div class="col-lg-5 col-md-12 ms-lg-5 mx-lg-0 me-lg-3 me-md-0 "  data-aos="zoom-in-down" . data-aos-duration="2500">
-      <img src="{{spices.image}}" class=" spices-img img-fluid " alt="restaurant image" >
+  <div class="col-lg-5 col-md-12 ms-lg-5 mx-lg-0 me-lg-3 me-md-0 "  data-aos="zoom-in-down" . data-aos-duration="2500" >
+      <img src="{{spices.image}}" class=" spices-img img-fluid " alt="restaurant image" style="border-top-left-radius: 30px;border-bottom-right-radius: 30px;">
   </div>
 
-  <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5 mt-sm-5 cardo-body bg-white" data-aos="zoom-in-left" . data-aos-duration="2500" style="border-radius: 10px;border: 2px solid #ff9800;">
+  <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5 mt-sm-5 cardo-body bg-white border" data-aos="zoom-in-left" . data-aos-duration="2500" style="border-bottom-left-radius: 30px;border-top-right-radius: 30px;">
     <div class="card-body ">
       <h5 class="card-title text-md-center text-sm-center" style="font-size: 2rem;">Grand Palace Eatery </h5>
       <p class="card-text mt-4 ">
@@ -213,10 +213,10 @@
   <div class="row my-5 py-5  ">
     
   <div class="col-lg-5 col-md-12 ms-lg-5 mx-lg-0 me-lg-3 me-md-0 "  data-aos="zoom-in-down" . data-aos-duration="2000">
-      <img src="{{headchef.image}}" class=" spices-img img-fluid " alt="restaurant image" >
+      <img src="{{headchef.image}}" class=" spices-img img-fluid " alt="restaurant image" style="border-top-left-radius: 30px;border-bottom-right-radius: 30px;">
   </div>
 
-  <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5 mt-sm-5 cardo-body bg-white " data-aos="zoom-in-left" . data-aos-duration="2000" style="border-radius: 10px;border: 2px solid #ff9800;">
+  <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5 mt-sm-5 cardo-body bg-white " data-aos="zoom-in-left" . data-aos-duration="2000" style="border-bottom-left-radius: 30px;border-top-right-radius: 30px;">
     <div class="card-body ">
       <h5 class="card-title" style="font-size: 2rem;">Chef Luke Simon</h5>
       <p class="card-text mt-4 ">
@@ -233,7 +233,7 @@
 <!-- owner's_table -->
 
 <!-- form -->
-<div class="row reservation img-fluid" style="width: 100%;background-image: url({{reservation.image}});">
+<div class="row reservation img-fluid"  id="form" style="width: 100%;background-image: url({{reservation.image}});">
 
   <div class="col-lg-5 my-lg-5 mt-sm-5 mx-sm-5 mx-md-5  ">
     <div class="booktable ms-sm-5 ms-md-5 ">
@@ -283,12 +283,12 @@
               </div>
 
             <!-- No_Of_Persons -->
-              <select class="form-select mb-5" aria-label="Default select example" style="height:57px;color: lightslategrey;" >
-                <option selected class="selected">Person</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4+</option>
+              <select class="form-select mb-5" aria-label="Default select example" style="height:57px;font-family: poppins;" >
+                <option selected class="selected text-dark">Guest</option>
+                <option value="1" class="text-secondary">1</option>
+                <option value="2" class="text-secondary">2</option>
+                <option value="3" class="text-secondary">3</option>
+                <option value="4" class="text-secondary">4+</option>
               </select>
 
             </div>
@@ -328,11 +328,15 @@
       <div class="p-3  mx-auto"style="width: 47%;" ><img src="{{thirdtestimony.image}}" class="img-fluid" style="clip-path: circle();"   alt=""></div>
       <h6 class="text-center my-3" style="font-weight: 300;">Lorem ipsum carrots enhanced rebates. It is through desire, to have some pleasure of pleasures, this man did flee from the flattery of her debts, receives us all worthy of.</h6>
       <h4 class="text-center py-2">Blue Catfish🐟</h4>
-      <p class="text-muted text-center" style="font-weight: 600;">CUSTOMER</p>
+      <p class="text-muted text-center"  style="font-weight: 600;">CUSTOMER</p>
     </div>
   </div>
 </div>
 <!-- testimony -->
-<br><br><br><br><br><br><br>
+
+<div class="delicious-food mt-5 py-2 " style="background: #ff9800;" >
+  <h1 class=" text-light mt-2 ">We Make Delicious & Nutritious Food Here</h1>
+  <center><a href="#form"><button class="my-2 data-mdb-smooth-scroll " data-mdb-ripple-color="dark">Book A Table Now</button></a></center>
+</div>
 
 

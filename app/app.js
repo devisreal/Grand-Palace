@@ -10,11 +10,11 @@ myModule.config(['$routeProvider', function($routeProvider){
         templateUrl: 'view/menu.html',
         controller: 'MenuController'
     })
-    .when('/aboutus',{
+    .when('/about',{
         templateUrl: 'view/about.html',
         controller: 'AboutController'
     })
-    .when('/contactus',{
+    .when('/contact',{
         templateUrl: 'view/contact.html',
         controller: 'ContactController'
     })
@@ -83,12 +83,31 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 }])
 
 
-myModule.controller('MenuController', ['$scope', function($scope){
+myModule.controller('MenuController', ['$scope', '$http', function($scope,$http){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
-    $scope.firsttestimony = {image: 'content/img/Home_Page/Isttestimony.jpg'}
-    $scope.secondtestimony = {image: 'content/img/Home_Page/2ndtestimony.jpg'}
-    $scope.thirdtestimony = {image: 'content/img/Home_Page/3rdtestimony.jpg'}
+
+    $http.get('http://127.0.0.1:5500/data/african.json').then(function (response) {
+        console.log(response.data);
+        $scope.africanfood = response.data;
+    });
+    $http.get('http://127.0.0.1:5500/data/foreign.json').then(function (response) {
+        console.log(response.data);
+        $scope.foreignfood = response.data;
+    });
+    $http.get('http://127.0.0.1:5500/data/fastfood.json').then(function (response) {
+        console.log(response.data);
+        $scope.fastfood = response.data;
+    });
+    $http.get('http://127.0.0.1:5500/data/drinks.json').then(function (response) {
+        console.log(response.data);
+        $scope.drinks = response.data;
+    });
 }])
+
+
+
+
+
 
 myModule.controller('AboutController', ['$scope', function($scope){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
