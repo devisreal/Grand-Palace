@@ -17,20 +17,20 @@
   <div class="container menuqualities" style="margin-top: 40px;">
     <h2 class="text-center ">Our Menu Offers You ...</h2>
   <div class="row gx-4 ">
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 "  >
+    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{healthyfoodmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Healthy Meal</h5>
      </div>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 "  >
+    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{fastfoodmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Fast Food</h5>
      </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 "  >
+    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{coffeecupmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Delicious Coffee</h5>
@@ -55,22 +55,56 @@
     </button>
   </li>
   <li class="nav-item tabio mx-auto" role="presentation">
-    <button class="nav-link mx-2" id="contact-tab0" data-mdb-toggle="tab" data-mdb-target="#contact0"type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <button class="nav-link mx-2 mt-sm-3 mt-lg-0 mt-md-0" id="contact-tab0" data-mdb-toggle="tab" data-mdb-target="#contact0"type="button" role="tab" aria-controls="contact" aria-selected="false">
       Fast food
     </button>
   </li>
   <li class="nav-item tabio mx-auto" role="presentation">
-    <button class="nav-link mx-2" id="extra-tab0" data-mdb-toggle="tab" data-mdb-target="#extra"type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <button class="nav-link mx-2 mt-sm-3 mt-lg-0 mt-md-0" id="extra-tab0" data-mdb-toggle="tab" data-mdb-target="#extra"type="button" role="tab" aria-controls="contact" aria-selected="false">
       Drinks
     </button>
   </li>
 </ul>
 
+<style>
+
+</style>
+
 <!-- CONTENT -->
 <div class="tab-content mt-5" id="myTabContent0">
-  <div class="tab-pane fade show active" id="home0" role="tabpanel" aria-labelledby="home-tab0">
-    African Dishes
+  <!-- CONTENT 1 -->
+  <div class="tab-pane fade show active border"  id="home0" role="tabpanel" aria-labelledby="home-tab0">
+    <!--  -->
+    <div class="container sticky-top search">
+      <span><h5 class="m-3 " style="text-align: right;color: #198754;">
+        
+        <input type="search" class="py-1 " id="searchbar" ng-model="searchAfricanFoods" placeholder="Search African Foods" style="display: none;">
+        <i class="fa fa-search  p-2 classinitial  border" id="searchactive" aria-hidden="true" style="cursor: pointer;"></i>
+      </h5></span>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col-sm-6 user-select-none my-2" ng-repeat="dish in africanfood | filter: searchAfricanFoods">
+        <div class="card mb-3"  >
+          <div class="row g-0">
+            <div class="col-md-6 hover-zoom overflow-hidden">
+              <img src="{{dish.image}}" alt="..." class="img-fluid " style="border-right: 1px solid black;"/>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h4 class="card-title ">{{dish.name}}</h5>
+                <p class="card-text my-4">{{dish.price | currency: "₦"}} </p>
+                <button type="button" class="">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  --> 
   </div>
+
+  <!-- CONTENT 2 -->
   <div class="tab-pane fade" id="profile0" role="tabpanel" aria-labelledby="profile-tab0">
     Tab 2 content
   </div>
@@ -83,9 +117,4 @@
 </div>
 </div>
 
-
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-

@@ -42,8 +42,11 @@
     <link rel="stylesheet" href="/content/css/animate.min.css">
     <!-- SCROLL REVEAL -->
     <script src="content/js/scrollreveal.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
-    <script src="content/js/scrollrevealimplement.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <style>
         *{
             scroll-behavior: smooth;
@@ -63,7 +66,7 @@
         
     </style>
 </head>
-<body style="overflow-x: hidden;scroll-behavior: smooth;user-select: none;"  ><!--background-color: rgba(108, 117, 125, 0.2);-->
+<body style="overflow-x: hidden;scroll-behavior: smooth;"class="user-select-auto"  ><!--background-color: rgba(108, 117, 125, 0.2);-->
     <header ng-include=" 'navbar.html' "></header>
     <main ng-view ng-filter="searchFoods" style="margin-top: -100px;"></main>
     <!-- <div class="footer" ng-include=" 'footer.html' "></div> -->
@@ -74,11 +77,14 @@
 
     <!-- JAVASCRIPT LINKING -->
     <script src="content/js/bootstrap.min.js"></script>
-    
+    <script src="/content/js/jquery.min.js"></script>
+    <script src="/content/js/jquery.counterup.min.js"></script>
+    <script src="content/js/popper.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/content/js/aos.js"></script>
     <script src="/content/js/transition.min.js"></script>
     <script src="/content/js/mdb.min.js"></script>
+    <script src="content/js/scrollrevealimplement.js"></script>
     <script>
         AOS.init();
         ScrollReveal({ reset: true });
@@ -91,9 +97,14 @@
         return true;
     }
     </script>
-    
+    <script>
+  
+</script>
     <!-- SCROLLBAR STYLING -->
 <style>
+    .test {
+  background-color: #ff9800;
+}
     ::-webkit-scrollbar {
         width: 10px;
     }

@@ -55,40 +55,47 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.secondtestimony = {image: 'content/img/Home_Page/2ndtestimony.jpg'}
     $scope.thirdtestimony = {image: 'content/img/Home_Page/3rdtestimony.jpg'}
 
-    // Cards------OUR DISHES PAGE === Young_Justice_ S1E26 
-    // $scope.cards = [
-    //     {
-    //         name: "Jollof Rice and Chicken",
-    //         price: 2500,
-    //         image: "content/img/freshimages/pexels-rajesh-tp-1624487.jpg"
-            
-    //     },
-    //     {
-    //         name: "Pounded Yam with Vegetable Soup",
-    //         price: 3000,
-    //         image: "content/img/freshimages/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg"
-    //     },
-    //     {
-    //         name: "White Rice, Pasta with Chicken",
-    //         price: 1200,
-    //         image: "content/img/freshimages/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg"
-    //     },
-    //     {
-    //         name: "Amala with Ewedu Soup",
-    //         price: 1250,
-    //         image: "content/img/freshimages/amala_ewedu.jpg"
-    //     }
-    // ]
-
 }])
 
-
+// MENU PAGE CONTROLLER
 myModule.controller('MenuController', ['$scope', '$http', function($scope,$http){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
     $scope.fastfoodmenu = {icon: 'content/icons/fast-food (1).png'}
     $scope.coffeecupmenu = {icon: 'content/icons/coffee-cup.png'}
     $scope.healthyfoodmenu = {icon: 'content/icons/nutrition.png'}
 
+//     var tab = document.getElementsByClassName(".tab-pane");
+//     $(".tab-pane").scroll(function() {
+//     if (window.pageYOffset > 70) {
+//         $(".fa-search").addClass(' border')
+//         } else {
+//             $(".fa-search").removeClass('bg-light')
+//         }
+//   });
+
+    $(function () {
+            var search = $(".classinitial");
+            var bar = $("#searchbar")
+            $(".tab-pane").scroll(function () {
+                var scroll = $(".tab-pane").scrollTop();
+  
+                if (scroll >= 100) {
+                    search.removeClass('classinitial')
+                            .addClass("classfinal");
+                    bar.addClass("searchbar")
+                } else {
+                    search.removeClass("classfinal")
+                            .addClass('classinitial');
+                    bar.removeClass("searchbar")                            
+                }
+            });
+        });
+
+        $(document).ready(function(){
+            $("#searchactive").click(function(){
+            $("#searchbar").toggle(500);
+        });
+});
 
     $http.get('http://127.0.0.1:5500/data/african.json').then(function (response) {
         console.log(response.data);
@@ -109,14 +116,12 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
 }])
 
 
-
-
-
-
+// ABOUT PAGE CONTROLLER
 myModule.controller('AboutController', ['$scope', function($scope){
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
 
+// CONTACT PAGE CONTROLLER
 myModule.controller('ContactController', ['$scope', function($scope){
    $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])

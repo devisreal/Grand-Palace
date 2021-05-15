@@ -1,14 +1,103 @@
  [
                     {
-                              "id": "01",
-                              "language": "Java",
-                              "edition": "third",
-                              "author": "Herbert Schildt"
+                              "name": "Jollof Rice and Chicken",
+                              "price": 2500,
+                              "image": "content/img/freshimages/AfricanDIshes/pexels-rajesh-tp-1624487.jpg"
                     },
                     {
-                              "id": "07",
-                              "language": "C++",
-                              "edition": "second",
-                              "author": "E.Balagurusamy"
+                              "name": "Pounded Yam with Vegetable Soup",
+                              "price": 3000,
+                              "image": "content/img/freshimages/AfricanDIshes/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg"
+                    },
+                    {
+                              "name": "White Rice, Pasta with Chicken",
+                              "price": 1200,
+                              "image": "content/img/freshimages/AfricanDIshes/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg"
+                    },
+                    {
+                              "name": "Amala with Ewedu Soup",
+                              "price": 1250,
+                              "image": "content/img/freshimages/AfricanDIshes/amala_ewedu.jpg"
+                    },
+                    {
+                              "name": "Fried Irish Potatoes",
+                              "price": "700",
+                              "image": "content/img/freshimages/AfricanDIshes/food-1322804-1280x960.jpg"
+                    },
+                    {
+                              "name": "Fish Pepper Soup",
+                              "price": 950,
+                              "image": "content/img/freshimages/AfricanDIshes/fish_pepper_soup.jpg"
+                    },
+                    {
+                              "name": "Fried Yam with Pepper Sauce",
+                              "price": 1300,
+                              "image": "content/img/freshimages/AfricanDIshes/fried_yam_pepper_sauce.jpg"
+                    },
+                    {
+                              "name": "Semovita with Egusi Soup",
+                              "price": 1800,
+                              "image": "content/img/freshimages/AfricanDIshes/egusi-soup-23-1-4.jpg"
+                    },
+                    {
+                              "name": "Fufu with Okro Soup",
+                              "price": 1400,
+                              "image": "content/img/freshimages/AfricanDIshes/Fufu_Okro_soup.jpg"
+                    },
+                    {
+                              "name": "Goat Meat Pepper Soup",
+                              "price": 1100,
+                              "image": "content/img/freshimages/AfricanDIshes/Goat-Meat-Pepper-Soup-google-1.jpg"
+                    },
+                    {
+                              "name": "Spaghetti Pasta",
+                              "price": 1500,
+                              "image": "content/img/freshimages/AfricanDIshes/spag.jpg"
+                    },
+                    {
+                              "name": "Fufu with Efo Riro",
+                              "price": 2000,
+                              "image": "content/img/freshimages/AfricanDIshes/efo shoko efo riro.jpg"
+                    },
+                    {
+                              "name": "Pounded Yam with Okro Soup",
+                              "price": 1500,
+                              "image": "content/img/freshimages/AfricanDIshes/Pounded_yam_okro.jpg"
+                    },
+                    {
+                              "name": "Yam Porridge",
+                              "price": 600,
+                              "image": "content/img/freshimages/AfricanDIshes/yam porridge.jpg"
+                    },
+                    {
+                              "name": "Boiled Yam with Egg Sauce",
+                              "price": 1100,
+                              "image": "content/img/freshimages/AfricanDIshes/yam_egg_sauce.jpg"
+                    },
+                    {
+                              "name": "Boiled Yam with Fish Sauce",
+                              "price": 1150,
+                              "image": "content/img/freshimages/AfricanDIshes/yam_fish_sauce.jpg"
+                    },
+                    {
+                              "name": "Tuwo Shinkafa with Pumpkin Soup",
+                              "price": 1250,
+                              "image": "content/img/freshimages/AfricanDIshes/Tuwo and pumpkin soup].jpg"
+                    },
+                    {
+                              "name": "Banga Soup",
+                              "price": 1000,
+                              "image": "content/img/freshimages/AfricanDIshes/banga_soup.jpg"
+                    },
+                    {
+                              "name": "Pounded Yam with Egusi Soup",
+                              "price": 1500,
+                              "image": "content/img/freshimages/AfricanDIshes/pounded_yam_egusi.jpg"
+                    },
+                    {
+                              "name": "Chicken Pepper Soup",
+                              "price": 1500,
+                              "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg"
                     }
+
           ]
