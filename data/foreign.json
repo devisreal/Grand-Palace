@@ -1,14 +1,206 @@
 [
           {
-                    "id": "01",
-                    "language": "Java",
-                    "edition": "third",
-                    "author": "Herbert Schildt"
+                    "name": "Enchiladas",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/pexels-rajesh-tp-1624487.jpg",
+                    "origin": "American"
           },
           {
-                    "id": "07",
-                    "language": "C++",
-                    "edition": "second",
-                    "author": "E.Balagurusamy"
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Rocky Mountain Oysters",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/amala_ewedu.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Pheasant",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/food-1322804-1280x960.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Poke",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/fish_pepper_soup.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/fried_yam_pepper_sauce.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Lobster Mac and Cheese",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/egusi-soup-23-1-4.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/Fufu_Okro_soup.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Fried Catfish",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/Goat-Meat-Pepper-Soup-google-1.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/spag.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Finger Steaks",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/efo shoko efo riro.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Deep Dish Pizza",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/Pounded_yam_okro.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/yam porridge.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Bourbon Bread Pudding",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/yam_egg_sauce.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/yam_fish_sauce.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Jambalaya",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/Tuwo and pumpkin soup].jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/banga_soup.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Lobster Roll",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/pounded_yam_egusi.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "New England Clam Chowder",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Tater Tot Hotdish",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Toasted Ravioli",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Bison Meatballs",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Cincinnati Chili",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "Johnnycakes",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
+          },
+          {
+                    "name": "",
+                    "price": "",
+                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "origin": ""
           }
 ]

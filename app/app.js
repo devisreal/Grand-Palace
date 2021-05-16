@@ -64,15 +64,6 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
     $scope.coffeecupmenu = {icon: 'content/icons/coffee-cup.png'}
     $scope.healthyfoodmenu = {icon: 'content/icons/nutrition.png'}
 
-//     var tab = document.getElementsByClassName(".tab-pane");
-//     $(".tab-pane").scroll(function() {
-//     if (window.pageYOffset > 70) {
-//         $(".fa-search").addClass(' border')
-//         } else {
-//             $(".fa-search").removeClass('bg-light')
-//         }
-//   });
-
     $(function () {
             var search = $(".classinitial");
             var bar = $("#searchbar")
