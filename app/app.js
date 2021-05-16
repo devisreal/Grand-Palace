@@ -80,26 +80,53 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                     bar.removeClass("searchbar")                            
                 }
             });
+            // SEARCH-BAR TWO
+            var search2 = $(".classinitial");
+            var bar2 = $("#searchbar2")
+            $(".tab-pane2").scroll(function () {
+                var scroll = $(".tab-pane2").scrollTop();
+  
+                if (scroll >= 100) {
+                    search2.removeClass('classinitial')
+                            .addClass("classfinal");
+                    bar2.addClass("searchbar")
+                } else {
+                    search2.removeClass("classfinal")
+                            .addClass('classinitial');
+                    bar2.removeClass("searchbar")                            
+                }
+            });
         });
 
-        $(document).ready(function(){
-            $("#searchactive").click(function(){
-            $("#searchbar").toggle(500);
-        });
-});
+        $(document).ready(
+            function(){
+                $("#searchactive").click(
+                    function(){
+                        $("#searchbar").toggle(500);
+                    })
+                    // SEARCH ICON TWO
+                $("#searchactive2").click(
+                    function(){
+                        $("#searchbar2").toggle(500);
+                    })
+            });
 
     $http.get('http://127.0.0.1:5500/data/african.json').then(function (response) {
         console.log(response.data);
         $scope.africanfood = response.data;
     });
+
     $http.get('http://127.0.0.1:5500/data/foreign.json').then(function (response) {
         console.log(response.data);
         $scope.foreignfood = response.data;
+        
     });
+
     $http.get('http://127.0.0.1:5500/data/fastfood.json').then(function (response) {
         console.log(response.data);
         $scope.fastfood = response.data;
     });
+
     $http.get('http://127.0.0.1:5500/data/drinks.json').then(function (response) {
         console.log(response.data);
         $scope.drinks = response.data;

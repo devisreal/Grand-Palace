@@ -1,206 +1,272 @@
 [
           {
                     "name": "Enchiladas",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/pexels-rajesh-tp-1624487.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/enchilada.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/64a0f6bfe8d45fa3d1404d52b53af518..2.jpg",
-                    "origin": ""
+                    "name": "Chinese Noodles",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/chinese-noodles.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Rocky Mountain Oysters",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/rakhmat-suwandi-aseI9y_OCHs-unsplash.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/rocky-mountain-oysters.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/amala_ewedu.jpg",
-                    "origin": ""
+                    "name": "Yorkshire Pudding",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Yorkshire-Pudding.jpg",
+                    "origin": "British"
           },
           {
-                    "name": "Pheasant",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/food-1322804-1280x960.jpg",
+                    "name": "Beef Stroganoff",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Beef-Stroganoff.jpg",
+                    "origin": "Russian"
+          },
+          {
+                    "name": "Roasted Pheasant",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/roasted-pheasant.jpg",
                     "origin": "American"
           },
           {
                     "name": "Poke",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/fish_pepper_soup.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/poke-bowl.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/fried_yam_pepper_sauce.jpg",
-                    "origin": ""
+                    "name": "Dim Sum",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/dim-sum.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Lobster Mac and Cheese",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/egusi-soup-23-1-4.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/lobster-mac-and-cheese.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/Fufu_Okro_soup.jpg",
-                    "origin": ""
+                    "name": "Haggis",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Haggis.jpg",
+                    "origin": "British"
+          },
+          {
+                    "name": "Borscht",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Borscht.jpg",
+                    "origin": "Russian"
           },
           {
                     "name": "Fried Catfish",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/Goat-Meat-Pepper-Soup-google-1.jpg",
-                    "origin": ""
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/fried-catfish.jpg",
+                    "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/spag.jpg",
-                    "origin": ""
+                    "name": "Spring Rolls",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/spring-rolls.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Finger Steaks",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/efo shoko efo riro.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/finger-steaks.jpg",
                     "origin": "American"
           },
           {
                     "name": "Deep Dish Pizza",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/Pounded_yam_okro.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/deep-dish-pizza-chicago.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/yam porridge.jpg",
-                    "origin": ""
+                    "name": "Shashlyk",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Shashlyk.jpg",
+                    "origin": "Russian"
+          },
+          {
+                    "name": "Tofu with Rice",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/tofu-with-rice.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Bourbon Bread Pudding",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/yam_egg_sauce.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/bread-pudding-southern.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/yam_fish_sauce.jpg",
-                    "origin": ""
+                    "name": "Parsnips",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Mashed-Parsnips.jpg",
+                    "origin": "British"
           },
           {
                     "name": "Jambalaya",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/Tuwo and pumpkin soup].jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/Jambalaya.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/banga_soup.jpg",
-                    "origin": ""
+                    "name": "Szechwan Chilli Chicken",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/szechwan-chilli-chicken.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Lobster Roll",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/pounded_yam_egusi.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/lobster-roll.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Solyanka",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Solyanka.jpg",
+                    "origin": "Russian"
+          },
+          {
+                    "name": "Falafels",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Falafels.jpg",
+                    "origin": "British"
           },
           {
                     "name": "New England Clam Chowder",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/new-england-clam-chowder.jpg",
                     "origin": "American"
           },
           {
                     "name": "Tater Tot Hotdish",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/tater-tot-dish.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Vegetable Manchow Soup",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/Vegetable-Manchow-Soup.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Toasted Ravioli",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/toasted-ravioli.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Hot And Sour Soup",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/hot-and-sour-soup.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Bison Meatballs",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/meatballs.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Pork Pie",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Pork-pie.jpg",
+                    "origin": "British"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Blini",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Blini.jpg",
+                    "origin": "Russian"
+          },
+          {
+                    "name": "Shitake Fried Rice with Water Chestnuts",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/Shitake-Fried-Rice-with-Water-Chestnuts.jpg",
+                    "origin": "Chinese"
           },
           {
                     "name": "Cincinnati Chili",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/cincinnati-chili.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Bangers",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Bangers-and-Mash-.jpg",
+                    "origin": "British"
+          },
+          {
+                    "name": "Ikra",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Ikra.jpg",
+                    "origin": "Russian"
           },
           {
                     "name": "Johnnycakes",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/cornmeal-johnnycakes.jpg",
                     "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Wok Tossed Vegetables in Honey and Black Bean Glaze",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/Wok-Tossed-Veggies-in-Honey-and-Black-Bean-Glaze.jpg",
+                    "origin": "Chinese"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Calabasa Soup",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/calabasasoup.jpg",
+                    "origin": "American"
           },
           {
-                    "name": "",
-                    "price": "",
-                    "image": "content/img/freshimages/AfricanDIshes/chicken-pepper-soup-recipe-main-photo.jpg",
-                    "origin": ""
+                    "name": "Sunday Roast",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/British/Sunday-Roast.jpg",
+                    "origin": "British"
+          },
+          {
+                    "name": "Sushi",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/sushi.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Crab Cakes",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/maryland-crab-cakes.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Buffalo Wings",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/American/buffalo-wings.jpg",
+                    "origin": "American"
+          },
+          {
+                    "name": "Smetana",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Russian/Smetana.jpg",
+                    "origin": "Russian"
+          },
+          {
+                    "name": "Peri Peri Chicken Satay",
+                    "price": 544,
+                    "image": "content/img/freshimages/ForeignDishes/Chinese/peri-peri_chicken-satay.webp",
+                    "origin": "Chinese"
           }
 ]

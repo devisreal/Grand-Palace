@@ -2,7 +2,7 @@
 
 
 <!-- head_Text -->
-<div class="head-text " style="background-image: url({{image.common}});background-attachment: fixed;">
+<div class="head-text " id="Menu_Page" style="background-image: url({{image.common}});background-attachment: fixed;">
     <h1 class="head-text-h1">
         MENU
     </h1>
@@ -73,14 +73,13 @@
 <!-- CONTENT -->
 <div class="tab-content mt-5" id="myTabContent0">
   <!-- CONTENT 1 -->
-  <div class="tab-pane fade   border"  id="home0" role="tabpanel" aria-labelledby="home-tab0">
+  <div class="tab-pane fade show active  border"  id="home0" role="tabpanel" aria-labelledby="home-tab0">
     <!--  -->
     <div class="container sticky-top search">
-      <span><h5 class="m-3 " style="text-align: right;color: #198754;">
-        
-        <input type="search" class="py-1 " id="searchbar" ng-model="searchAfricanFoods" placeholder="Search African Foods" style="display: none;">
-        <i class="fa fa-search  p-2 classinitial  border" id="searchactive" aria-hidden="true" style="cursor: pointer;"></i>
-      </h5></span>
+      <span><h6 class="m-3 " style="text-align: right;color: #198754;">
+        <input type="search" class="py-2 " id="searchbar" ng-model="searchAfricanFoods" placeholder="Search African Foods" style="display: none;">
+        <i class="fa fa-search  p-2 classinitial  border" id="searchactive" aria-hidden="true" style="cursor: pointer;font-size: 20px;"></i>
+      </h6></span>
     </div>
     
     <div class="row mb-4">
@@ -105,63 +104,31 @@
   </div>
 
   <!-- CONTENT 2 -->
-  <div class="tab-pane fade show active border" id="profile0" role="tabpanel" aria-labelledby="profile-tab0">
+  <div class="tab-pane tab-pane2 fade  border" id="profile0" role="tabpanel" aria-labelledby="profile-tab0">
     
-    <div class="container px-4 mt-4">
-  <div class="row gx-5 mx-auto">
-    <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4">
-      <div class=" bg-info">
-        
-        <div class="card" >
-          <img src="/content/img/freshimages/ForeignDishes/calabasasoup.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h4 class="card-title">Card title</h5>            
-            <p class="card-text mt-3">{{dish.price | currency: "₦"} </p>
-            <p class="card-text my-3" style="font-family: Itim;">Origin</p>
-            <button type="button" class="">Order Now</button>
-          </div>
-        </div>
-
-      </div>
+    <div class="container sticky-top search">
+      <span><p class="m-3 " style="text-align: right;color: #198754;">
+        <input type="search" class="py-2 " id="searchbar2" ng-model="searchForeignFoods" placeholder="Search Foreign Foods" style="display: none;">
+        <i class="fa fa-search  p-2 classinitial  border" id="searchactive2" aria-hidden="true" style="cursor: pointer;font-size: 20px;""></i>
+      </p></span>
     </div>
 
-    <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4">
-      <div class=" bg-info">
+    <div class="container px-4 mt-3">
+      <div class="row gx-5 mx-auto">
+        <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4" ng-repeat="dish in foreignfood | filter: searchForeignFoods">
         
-        <div class="card" >
-          <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h4 class="card-title">Card title</h5>
-            
+          <div class="card" >
+            <img src="{{dish.image}}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">{{dish.name}}</h5>            
+              <p class="card-text mt-3">{{dish.price | currency: "₦"}} </p>
+              <p class="card-text my-3" style="font-family: Itim;">{{dish.origin}}</p>
+              <button type="button" class="">Order Now</button>
+            </div>
           </div>
-          <div class="card-body">
-            <p class="card-text my-4">{{dish.price | currency: "₦"}} </p>
-            <button type="button" class="">Order Now</button>
-          </div>
+
         </div>
-
       </div>
-    </div>
-
-    <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4">
-      <div class=" bg-info">
-        
-        <div class="card" >
-          <img src="https://mdbootstrap.com/img/new/standard/city/062.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h4 class="card-title">Card title</h5>
-            
-          </div>
-          <div class="card-body">
-            <p class="card-text my-4">{{dish.price | currency: "₦"}} </p>
-            <button type="button" class="">Order Now</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
 </div>
 
   </div>
@@ -174,4 +141,5 @@
 </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
