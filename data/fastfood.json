@@ -1,14 +1,112 @@
 [
           {
-                    "id": "01",
-                    "language": "Java",
-                    "edition": "third",
-                    "author": "Herbert Schildt"
+                    "name": "Fried Chicken Wings",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/fried-chicken-wings.jpg"
           },
           {
-                    "id": "07",
-                    "language": "C++",
-                    "edition": "second",
-                    "author": "E.Balagurusamy"
+                    "name": "Sharwarma",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/shawarma.jpg"
+          },
+          {
+                    "name": "Chicken And Chips",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/chicken-and-chips.jpg"
+          },
+          {
+                    "name": "Chicken Nuggets",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/chicken-nuggets.jpg"
+          },
+          {
+                    "name": "French Fries",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/french-fries.jpg"
+          },
+          {
+                    "name": "Hot Dog",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/hot-dog.jpg"
+          },
+          {
+                    "name": "Pizza",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/pizza.jpg"
+          },
+          {
+                    "name": "Pasties",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/pasties-dish.jpg"
+          },
+          {
+                    "name": "Fish And Chips",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/fish-and-chips.jpg"
+          },
+          {
+                    "name": "Onion Rings",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/onion-rings.jpg"
+          },
+          {
+                    "name": "Pita",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/pita.jpg"
+          },
+          {
+                    "name": "Potato Chips",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/potato-chips.jpg"
+          },
+          {
+                    "name": "Sandwich",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/sandwich1.jpg"
+          },
+          {
+                    "name": "Sausage Roll",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/sausage-rolls.jpg"
+          },
+          {
+                    "name": "Taco",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/taco.jpg"
+          },
+          {
+                    "name": "Cornish Pastry",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/CornishPasty.jpg"
+          },
+          {
+                    "name": "Chicken And Chips",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/chicken-and-chips.jpg"
+          },
+          {
+                    "name": "Egg Roll",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/egg-roll.jpg"
+          },
+          {
+                    "name": "Cider Donut",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/cider-donut.jpg"
+          },
+          {
+                    "name": "Chips And Gravy",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/chips-and-gravy.jpg"
+          },
+          {
+                    "name": "Varieties Of Ice-Cream",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/ice-cream.jpg"
+          },
+          {
+                    "name": "Variety Of Fruits",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/fruits.jpg"
           }
 ]

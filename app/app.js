@@ -96,6 +96,23 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                     bar2.removeClass("searchbar")                            
                 }
             });
+             // SEARCH-BAR THREE
+            var search3 = $(".classinitial");
+            var bar3 = $("#searchbar3")
+            $(".tab-pane3").scroll(function () {
+                var scroll = $(".tab-pane3").scrollTop();
+  
+                if (scroll >= 100) {
+                    search3.removeClass('classinitial')
+                            .addClass("classfinal");
+                    bar2.addClass("searchbar")
+                } else {
+                    search3.removeClass("classfinal")
+                            .addClass('classinitial');
+                    bar3.removeClass("searchbar")                            
+                }
+            });
+            
         });
 
         $(document).ready(
@@ -108,6 +125,11 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                 $("#searchactive2").click(
                     function(){
                         $("#searchbar2").toggle(500);
+                    })
+                    // SEARCH ICON THREE
+                    $("#searchactive3").click(
+                    function(){
+                        $("#searchbar3").toggle(500);
                     })
             });
 
