@@ -10,37 +10,54 @@ body{
   overflow-x: hidden;
 }
 *{
-        text-decoration: none;
-    }
-    .head-text{
-        
-        width: auto;
-        height: 550px;
-        background-size: cover;
-        background-blend-mode: overlay;
-    }
-    .head-text-h1{
-        color: white;
-        font-family: Sofia;
-        font-weight: bold;
-        font-size: 2.9rem;
-        text-align: center;
-        padding-top: 18%;
-    }
-    .head-text-linker{
-        color: white;
-        text-align: center;
-        font-family: Itim;
-    }
-    .head-text-linker a{
-        text-decoration: none;
-        color: white;
-    }
-    .head-text-linker a:hover{
-        text-decoration: underline;
-        transition: 0.1s;
-        text-decoration-color: #ff9800;
-    }
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 575px) {
+  .qualities-box{
+    margin: 30px 20px;
+  }
+  .dishes{
+    width: 24rem;
+    margin: auto;
+  }
+  .foreign{
+    margin: 15px 0px;
+  }
+  .nav-link{
+    display: block;
+  }
+}
+
+.head-text{        
+  width: auto;
+  height: 550px;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.head-text-h1{
+  color: white;
+  font-family: Sofia;
+  font-weight: bold;
+  font-size: 2.9rem;
+  text-align: center;
+  padding-top: 18%;
+}
+.head-text-linker{
+  color: white;
+  text-align: center;
+  font-family: Itim;
+}
+.head-text-linker a{
+  text-decoration: none;
+  color: white;
+}
+.head-text-linker a:hover{
+  text-decoration: underline;
+  transition: 0.1s;
+  text-decoration-color: #ff9800;
+}
 
   /*OFFERS  */
   .tabio .nav-link{

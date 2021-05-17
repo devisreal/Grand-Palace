@@ -83,7 +83,7 @@
     </div>
     
     <div class="row mb-4">
-      <div class="col-sm-9 mx-sm-auto col-lg-6 user-select-none my-2" ng-repeat="dish in africanfood | filter: searchAfricanFoods">
+      <div class="col-sm-9 mx-sm-auto col-lg-6 user-select-none my-2 dishes" ng-repeat="dish in africanfood | filter: searchAfricanFoods">
         <div class="card mb-3"  >
           <div class="row g-0">
             <div class="col-md-6 hover-zoom overflow-hidden">
@@ -115,7 +115,7 @@
 
     <div class="container px-4 mt-3">
       <div class="row gx-5 mx-auto">
-        <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4" ng-repeat="dish in foreignfood | filter: searchForeignFoods">
+        <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4 dishes foreign" ng-repeat="dish in foreignfood | filter: searchForeignFoods" >
         
           <div class="card" >
             <img src="{{dish.image}}" class="card-img-top" alt="..." />
