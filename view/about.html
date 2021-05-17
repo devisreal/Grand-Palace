@@ -11,3 +11,34 @@
     </h3>
 </div>
 <!-- head_Text_End -->
+
+<div class="pulsing-2"></div>
+
+<style>
+.pulsing-2 {
+  width:70px;
+  margin: 70px auto;
+  height:70px;
+  border-radius: 50%;
+  background:#ff9800;
+  box-shadow: 0 0 0 0 #03fc03;
+  animation:pl2 1.5s infinite linear;
+  position: relative;
+}
+.pulsing-2:before,
+.pulsing-2:after {
+  content:"";
+  position: absolute;
+  inset:0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 #0004;
+  animation: inherit;
+  animation-delay: -0.5s;
+}
+.pulsing-2:after {
+  animation-delay: -1s;
+}
+@keyframes pl2 {
+    100% {box-shadow: 0 0 0 40px #0000}
+}
+</style>
