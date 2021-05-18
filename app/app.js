@@ -2,7 +2,7 @@ var myModule = angular.module('myModule',['ngRoute']);
 
 myModule.config(['$routeProvider', function($routeProvider){
     $routeProvider
-    .when('/home',{
+    .when('/',{
         templateUrl: 'view/home.html',
         controller: 'HomeController'
     })
