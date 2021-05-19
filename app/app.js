@@ -6,6 +6,10 @@ myModule.config(['$routeProvider', function($routeProvider){
         templateUrl: 'view/home.html',
         controller: 'HomeController'
     })
+    .when('/home',{
+        templateUrl: 'view/home.html',
+        controller: 'HomeController'
+    })
     .when('/menu',{
         templateUrl: 'view/menu.html',
         controller: 'MenuController'
@@ -112,6 +116,22 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                     bar3.removeClass("searchbar")                            
                 }
             });
+            // SEARCH-BAR FOUR
+            var search4 = $(".classinitial");
+            var bar4 = $("#searchbar4")
+            $(".tab-pane4").scroll(function () {
+                var scroll = $(".tab-pane4").scrollTop();
+  
+                if (scroll >= 100) {
+                    search4.removeClass('classinitial')
+                            .addClass("classfinal");
+                    bar4.addClass("searchbar")
+                } else {
+                    search4.removeClass("classfinal")
+                            .addClass('classinitial');
+                    bar4.removeClass("searchbar")                            
+                }
+            });
             
         });
 
@@ -130,6 +150,11 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                     $("#searchactive3").click(
                     function(){
                         $("#searchbar3").toggle(500);
+                    })
+                    // SEARCH ICON FOUR
+                    $("#searchactive4").click(
+                    function(){
+                        $("#searchbar4").toggle(500);
                     })
             });
 

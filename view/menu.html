@@ -162,8 +162,33 @@
 
   </div>
 
-  <div class="tab-pane fade border " id="extra" role="tabpanel" aria-labelledby="extra-tab0">
-    Tab 4 content
+  <!-- CONTENT 4 -->
+  <div class="tab-pane tab-pane4 fade border " id="extra" role="tabpanel" aria-labelledby="extra-tab0">
+    
+    <div class="container sticky-top search">
+      <span><p class="m-3 " style="text-align: right;color: #198754;">
+        <input type="search" class="py-2 " id="searchbar4" ng-model="searchDrinks" placeholder="Search Drinks" style="display: none;">
+        <i class="fa fa-search  p-2 classinitial  border" id="searchactive4" aria-hidden="true" style="cursor: pointer;font-size: 20px;"></i>
+      </p></span>
+    </div>
+
+    <div class="container px-4 mt-3">
+      <div class="row gx-5 mx-auto">
+        <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4 dishes foreign" ng-repeat="drink in drinks | filter: searchDrinks" >
+        
+          <div class="card" >
+            <img src="{{drink.image}}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4 class="card-title">{{drink.name}}</h5>            
+              <p class="card-text mt-3">{{drink.price | currency: "₦"}} </p>
+              <button type="button" class="">Order Now</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 </div>

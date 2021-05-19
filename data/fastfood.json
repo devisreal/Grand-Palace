@@ -10,6 +10,11 @@
                     "image": "content/img/freshimages/FastFood/shawarma.jpg"
           },
           {
+                    "name": "Burger And Fries",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/burger-and-fries.jpg"
+          },
+          {
                     "name": "Chicken And Chips",
                     "price": 544,
                     "image": "content/img/freshimages/FastFood/chicken-and-chips.jpg"
@@ -38,6 +43,11 @@
                     "name": "Pasties",
                     "price": 544,
                     "image": "content/img/freshimages/FastFood/pasties-dish.jpg"
+          },
+          {
+                    "name": "Mini Corn Dogs",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/mini-corn-dogs.jpg"
           },
           {
                     "name": "Fish And Chips",
@@ -88,6 +98,11 @@
                     "name": "Egg Roll",
                     "price": 544,
                     "image": "content/img/freshimages/FastFood/egg-roll.jpg"
+          },
+          {
+                    "name": "Fish Pie",
+                    "price": 544,
+                    "image": "content/img/freshimages/FastFood/fish_pie.jpg"
           },
           {
                     "name": "Cider Donut",
