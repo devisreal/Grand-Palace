@@ -46,30 +46,25 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
-    
-    <style>
-        *{
-            scroll-behavior: smooth;
-            flex-wrap: wrap;
-        }
-        .navbar-brand img{
-            width: 280px;
-            /* height: 90px; */
-        }                                       
-        header{
-            position: sticky;
-            top: 0;
-            z-index: 1500;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="/content/css/index.css">
 </head>
-<body style="overflow-x: hidden;scroll-behavior: smooth;"class="user-select-auto"  ><!--background-color: rgba(108, 117, 125, 0.2);-->
-    <header ng-include=" 'navbar.html' "></header>
-    <main ng-view ng-filter="searchFoods" style="margin-top: -100px;"></main>
-    <div class="footer" ng-include=" 'footer.html' "></div>
 
+<body class="user-select-auto" >
+
+    <div id="loader-wrapper">
+        <div id="loader" >
+            <img src="content/icons/hamburger.png" style="margin: 10% 15%;" alt="">
+        </div>          
+
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+    </div>
+
+    <header ng-include=" 'navbar.html' "></header>
+
+    <main ng-view ng-filter="searchFoods" ></main>
+
+    <div class="footer" ng-include=" 'footer.html' "></div>
 
 
 
@@ -83,48 +78,26 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/content/js/aos.js"></script>
     <script src="/content/js/transition.min.js"></script>
-    
     <script src="content/js/scrollrevealimplement.js"></script>
+
     <script>
         AOS.init();
         ScrollReveal({ reset: true });
         // document.addEventListener('contextmenu', event => event.preventDefault());
         function isNumber(evt) {
-        var iKeyCode = (evt.which) ? evt.which : evt.keyCode
-        if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
+            var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+            if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
             return false;
 
-        return true;
-    }
+            return true;
+        }
+    $(document).ready(function(){
+            setTimeout(function(){
+                $('body').addClass('loaded');
+                $("body").css({"overflow-y": "scroll"})       
+            }, 3000);                              
+    })
     </script>
-    <script>
-  
-</script>
-    <!-- SCROLLBAR STYLING -->
-<style>
-    .test {
-  background-color: #ff9800;
-}
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-
-    /* Track */
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        /* border-radius: 10px; */
-    }
- 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: #ff9800; 
-        border-radius: 20px;
-    }
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #f3960b; 
-    }
-</style>
+    
 </body>
 </html>

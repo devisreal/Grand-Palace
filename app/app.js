@@ -30,6 +30,7 @@ myModule.config(['$routeProvider', function($routeProvider){
 
 myModule.controller('HomeController', ['$scope', function($scope) {
     AOS.init();
+    
     $scope.image1 = {carousel : 'content/img/Carousel/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg'}
     $scope.image2 = {carousel : 'content/img/Carousel/louis-hansel-k2ZCm7LCj8E-unsplash.jpg'}
     $scope.image3 = {carousel : 'content/img/Carousel/Depositphotos_198022492_s-2019.jpg'}
@@ -67,7 +68,7 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
     $scope.fastfoodmenu = {icon: 'content/icons/fast-food (1).png'}
     $scope.coffeecupmenu = {icon: 'content/icons/coffee-cup.png'}
     $scope.healthyfoodmenu = {icon: 'content/icons/nutrition.png'}
-
+    AOS.init();
     $(function () {
             var search = $(".classinitial");
             var bar = $("#searchbar")
@@ -134,7 +135,7 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
             });
             
         });
-
+        
         $(document).ready(
             function(){
                 $("#searchactive").click(
@@ -183,10 +184,12 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
 
 // ABOUT PAGE CONTROLLER
 myModule.controller('AboutController', ['$scope', function($scope){
+    AOS.init();
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
 
 // CONTACT PAGE CONTROLLER
 myModule.controller('ContactController', ['$scope', function($scope){
+    AOS.init();
    $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
