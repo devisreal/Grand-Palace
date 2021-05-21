@@ -178,23 +178,23 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
                     })
             });
 
-    $http.get('http://127.0.0.1:5500/data/african.json').then(function (response) {
+    $http.get('data/african.json').then(function (response) {
         console.log(response.data);
         $scope.africanfood = response.data;
     });
 
-    $http.get('http://127.0.0.1:5500/data/foreign.json').then(function (response) {
+    $http.get('data/foreign.json').then(function (response) {
         console.log(response.data);
         $scope.foreignfood = response.data;
         
     });
 
-    $http.get('http://127.0.0.1:5500/data/fastfood.json').then(function (response) {
+    $http.get('data/fastfood.json').then(function (response) {
         console.log(response.data);
         $scope.fastfood = response.data;
     });
 
-    $http.get('http://127.0.0.1:5500/data/drinks.json').then(function (response) {
+    $http.get('data/drinks.json').then(function (response) {
         console.log(response.data);
         $scope.drinks = response.data;
     });
@@ -205,6 +205,8 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
 myModule.controller('AboutController', ['$scope', function($scope){
     AOS.init();
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
+
+    
 }])
 
 // CONTACT PAGE CONTROLLER
