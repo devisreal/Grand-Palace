@@ -214,3 +214,5 @@ myModule.controller('ContactController', ['$scope', function($scope){
     AOS.init();
    $scope.image = {common: 'content/img/Common/pizza.jpg'}
 }])
+
+

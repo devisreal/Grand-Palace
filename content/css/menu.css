@@ -10,8 +10,9 @@
 body{
   overflow-x: hidden;
 }
+
 *{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
@@ -35,7 +36,8 @@ body{
     margin: 15px 0px;
   }
   .desserts{
-    margin: 20px 0px;
+    margin: 20px auto;
+    width: 25rem;
   }
   .nav-link{
     display: block;
@@ -72,57 +74,57 @@ body{
 }
 
   /*OFFERS  */
-  .tabio .nav-link{
-    background-color: #ff9800;
-    font-size: 1.2rem;
-  }
-  .tabio .active{
-    color: #ff9800 !important;
-    border: #03fc03 2px solid !important;
-    border-bottom: none !important;
-    font-weight: bold;
-  }
-  .tabio .active:hover{
-    transform: none !important;
-  }
-  .menuqualities h2{
-    margin: 50px 0px;
-    color: #ff9800;
-    font-family: sofia;
-    font-weight: bold;
-    font-size: 2.5rem;
-  }
+.tabio .nav-link{
+  background-color: #ff9800;
+  font-size: 1.2rem;
+}
+.tabio .active{
+  color: #ff9800 !important;
+  border: #03fc03 2px solid !important;
+  border-bottom: none !important;
+  font-weight: bold;
+}
+.tabio .active:hover{
+  transform: none !important;
+}
+.menuqualities h2{
+  margin: 50px 0px;
+  color: #ff9800;
+  font-family: sofia;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
 
 /* CARD */
  .card{
-        border: 1px solid #198754;
-        box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.45);
-        cursor: pointer;
-        transition: 0.3s;
-      }
-      .card-body h4{
-        color: #ff9800;
-        font-family: Acme;
-      }
-    .card-body button{
-      font-weight: 500;
-      padding: 5px 10px;
-      border: hidden;
-      color: #198754;
-      background-color: white;
-      border: 1px solid #198754;
-      font-family: 'Bree Serif', serif;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
-    .card-body button:hover{
-      color: white;
-      background-color: #198754;
-      transition: 0.3s;
-    }
-    .card-body p{
-      font-family: Poppins;
-    }
+  border: 1px solid #198754;
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.45);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card-body h4{
+  color: #ff9800;
+  font-family: Acme;
+}
+.card-body button{
+  font-weight: 500;
+  padding: 5px 10px;
+  border: hidden;
+  color: #198754;
+  background-color: white;
+  border: 1px solid #198754;
+  font-family: 'Bree Serif', serif;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.card-body button:hover{
+  color: white;
+  background-color: #198754;
+  transition: 0.3s;
+}
+.card-body p{
+  font-family: Poppins;
+}
 /* SCROLLING */
 .classinitial {
   flex-wrap: wrap;
@@ -144,18 +146,17 @@ body{
 }
 .searchbar{
   box-shadow: 5px 1px 13px 0px rgba(50, 50, 50, 0.75);
-
 }
-  .search input{
-    border: hidden;
-    border: 1px solid grey;
-    display: inline-block;
-    width: 30%;
-  }
-  .search input::placeholder{
-    font-size: 17px;
-    padding: 0px 7px;
-  }
+.search input{
+  border: hidden;
+  border: 1px solid grey;
+  display: inline-block;
+  width: 30%;
+}
+.search input::placeholder{
+  font-size: 17px;
+  padding: 0px 7px;
+}
 /* TAB CONTENT */
 .tab-pane{
     height: 700px;
