@@ -205,7 +205,9 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
 myModule.controller('AboutController', ['$scope', function($scope){
     AOS.init();
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
-
+    // INTRO IMAGES
+    $scope.staff = {introimage: 'content/img/AboutPage/intro-staff-image.jpg'}
+    $scope.location = {introimage: 'content/img/AboutPage/intro-loaction-image.jpg'}
     
 }])
 
