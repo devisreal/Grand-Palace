@@ -128,10 +128,19 @@ body{
   flex-wrap: wrap;
   
 }
+.classinitial:hover{
+  background-color: #ff9800;
+  transform: rotate(360deg);
+  transition: 0.5s;
+} 
 .classfinal {
   background-color: #ff9800;
   border: 1px solid black;
   margin: 7px 0px;
+}
+.classfinal:hover{
+  transform: rotate(360deg);
+  transition: 0.5s;
 }
 .searchbar{
   box-shadow: 5px 1px 13px 0px rgba(50, 50, 50, 0.75);
