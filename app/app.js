@@ -45,7 +45,7 @@ myModule.controller('HomeController', ['$scope', function($scope) {
     $scope.foreign = {specimen: 'content/img/Home_Page/foreign.jpg'}
     $scope.local = {specimen: 'content/img/Home_Page/J-rice.jpg'}
     $scope.drinks = {specimen: 'content/img/Home_Page/20210510_131037.jpg'}
-    // our chef content\img\Home_Page\
+    // our chef content/img/Home_Page/
     $scope.lukesimon ={image: 'content/img/Home_Page/luke-simon.jpg'}
     $scope.rebecca ={image: 'content/img/Home_Page/rebecca.jpg'}
     $scope.martinyoung ={image: 'content/img/Home_Page/martin-young.jpg'}
@@ -64,11 +64,30 @@ myModule.controller('HomeController', ['$scope', function($scope) {
 
 // MENU PAGE CONTROLLER
 myModule.controller('MenuController', ['$scope', '$http', function($scope,$http){
+    AOS.init();
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
     $scope.fastfoodmenu = {icon: 'content/icons/fast-food (1).png'}
     $scope.coffeecupmenu = {icon: 'content/icons/coffee-cup.png'}
     $scope.healthyfoodmenu = {icon: 'content/icons/nutrition.png'}
-    AOS.init();
+    $scope.desserts = [
+        {
+            name:"Chocolate Mousse",
+            image: "content/img/freshimages/Dessert/chocolate-mousse.jpg"
+        },
+        {
+            name:"Slice Cake",
+            image: "content/img/freshimages/Dessert/slice-cake.jpg"
+        },
+        {
+            name:"Strawberry Cupcake",
+            image: "content/img/freshimages/Dessert/strawberrycupcake.jpg"
+        },
+        {
+            name:"Pretzels",
+            image: "content/img/freshimages/Dessert/pretzels.jpg"
+        }
+    ]
+    
     $(function () {
             var search = $(".classinitial");
             var bar = $("#searchbar")

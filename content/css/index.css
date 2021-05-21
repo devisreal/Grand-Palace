@@ -4,11 +4,15 @@
 }
 .navbar-brand img{
           width: 280px;
-}                                       
+          
+}                 
+img{
+  -webkit-user-drag: none;
+}                      
 header{
           position: sticky;
           top: 0;
-          z-index: 100;
+          z-index: 700;
 }
 body{
           overflow-x: hidden;

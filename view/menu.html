@@ -17,20 +17,21 @@
   <div class="container menuqualities" style="margin-top: 40px;">
     <h2 class="text-center ">Our Menu Offers You ...</h2>
   <div class="row gx-4 ">
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
+
+    <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{healthyfoodmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Healthy Meal</h5>
      </div>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
+    <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{fastfoodmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Fast Food</h5>
      </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
+    <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
        <img src="{{coffeecupmenu.icon}}" alt="">
        <h4 class="mt-4" style="font-size: 1.4rem;">Delicious Coffee</h5>
@@ -75,7 +76,7 @@
   <!-- CONTENT 1 -->
   <div class="tab-pane fade show active  border"  id="home0" role="tabpanel" aria-labelledby="home-tab0">
     <!--  -->
-    <div class="container sticky-top search">
+    <div class="container sticky-top search" style="z-index: 600;">
       <span><h6 class="m-3 " style="text-align: right;color: #198754;">
         <input type="search" class="py-2 " id="searchbar" ng-model="searchAfricanFoods" placeholder="Search African Foods" style="display: none;">
         <i class="fa fa-search  p-2 classinitial  border" id="searchactive" aria-hidden="true" style="cursor: pointer;font-size: 20px;"></i>
@@ -83,7 +84,7 @@
     </div>
     
     <div class="row mb-4">
-      <div class="col-sm-9 mx-sm-auto col-lg-6 user-select-none my-2 dishes" ng-repeat="dish in africanfood | filter: searchAfricanFoods">
+      <div class="col-sm-9 mx-sm-auto col-lg-6 user-select-none my-2 dishes" ng-repeat="dish in africanfood | filter: searchAfricanFoods" >
         <div class="card mb-3"  >
           <div class="row g-0">
             <div class="col-md-6  overflow-hidden">
@@ -183,7 +184,7 @@
               <p class="card-text mt-3">{{drink.price | currency: "₦"}} </p>
               <button type="button" class="">Order Now</button>
             </div>
-          </div>
+          
 
         </div>
       </div>
@@ -193,5 +194,30 @@
 </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
+
+<div class="container menuqualities overflow-hidden" >
+
+  <h2 class="text-center ">Our Popular Desserts <i class="fas fa-utensils" style='color:#03fc03'></i></h2>
+
+  <div class="row gx-3">
+    <div class="col-lg-3 col-md-6 col-md-6 my-sm-3 my-md-4 desserts" ng-repeat="dessert in desserts" data-aos="fade-up">
+      <div class=" bg-info ">
+
+        <div class="card"  style="box-shadow: none;">
+          <img src="{{dessert.image}}"  class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h6 style="font-size: 1.1rem;" class="card-text text-center my-1">{{dessert.name}}</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br>
 <!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->

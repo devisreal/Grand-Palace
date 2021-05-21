@@ -6,6 +6,7 @@
   transform: none;
   transition: none;
 }
+
 body{
   overflow-x: hidden;
 }
@@ -32,6 +33,9 @@ body{
   }
   .foreign{
     margin: 15px 0px;
+  }
+  .desserts{
+    margin: 20px 0px;
   }
   .nav-link{
     display: block;
@@ -145,7 +149,7 @@ body{
   }
 /* TAB CONTENT */
 .tab-pane{
-    height: 650px;
+    height: 700px;
     overflow-y: scroll;
     overflow-x: hidden;
   }
