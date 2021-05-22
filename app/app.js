@@ -27,7 +27,7 @@ myModule.config(['$routeProvider', function($routeProvider){
     })
 }]);
 
-
+// HOME PAGE CONTROLLER
 myModule.controller('HomeController', ['$scope', function($scope) {
     AOS.init();
     
@@ -181,6 +181,7 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
     $http.get('data/african.json').then(function (response) {
         console.log(response.data);
         $scope.africanfood = response.data;
+
     });
 
     $http.get('data/foreign.json').then(function (response) {
@@ -202,12 +203,13 @@ myModule.controller('MenuController', ['$scope', '$http', function($scope,$http)
 
 
 // ABOUT PAGE CONTROLLER
-myModule.controller('AboutController', ['$scope', function($scope){
+myModule.controller('AboutController', ['$scope',  function($scope){
     AOS.init();
     $scope.image = {common: 'content/img/Common/pizza.jpg'}
     // INTRO IMAGES
     $scope.staff = {introimage: 'content/img/AboutPage/intro-staff-image.jpg'}
     $scope.location = {introimage: 'content/img/AboutPage/intro-loaction-image.jpg'}
+    
     
 }])
 
