@@ -18,22 +18,22 @@
     <h2 class="text-center " data-aos="fade-up" data-aos-anchor-placement="center-center"  data-aos-duration="1000">Our Menu Offers You ...</h2>
   <div class="row gx-4 ">
 
-    <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  data-aos="fade-up" data-aos-anchor-placement="center-center"  data-aos-duration="1000">
+    <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
-       <img src="{{healthyfoodmenu.icon}}" alt="">
+       <img src="{{healthyfoodmenu.icon}}" alt="" oncontextmenu="return false">
        <h4 class="mt-4" style="font-size: 1.4rem;">Healthy Meal</h5>
      </div>
     </div>
 
     <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
-       <img src="{{fastfoodmenu.icon}}" alt="">
+       <img src="{{fastfoodmenu.icon}}" alt="" oncontextmenu="return false">
        <h4 class="mt-4" style="font-size: 1.4rem;">Fast Food</h5>
      </div>
     </div>
     <div  class="col-lg-4 col-md-4 col-sm-7 m-sm-auto my-lg-o my-md-0 my-sm-2 my-sm-3"  >
      <div class="p-3 qualities-box  text-center "  style="background-color: rgba(173, 174, 175,0.1);border-radius: 100px;">
-       <img src="{{coffeecupmenu.icon}}" alt="">
+       <img src="{{coffeecupmenu.icon}}" alt="" oncontextmenu="return false">
        <h4 class="mt-4" style="font-size: 1.4rem;">Delicious Coffee</h5>
      </div>
     </div>
@@ -88,7 +88,7 @@
         <div class="card mb-3"  >
           <div class="row g-0">
             <div class="col-md-6  overflow-hidden">
-              <img src="{{dish.image}}" alt="..." class="img-fluid " style="border-right: 1px solid black;"/>
+              <img src="{{dish.image}}" alt="..." class="img-fluid " style="border-right: 1px solid black;"/ oncontextmenu="return false">
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -119,7 +119,7 @@
         <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4 dishes foreign" ng-repeat="dish in foreignfood | filter: searchForeignFoods" >
         
           <div class="card" >
-            <img src="{{dish.image}}" class="card-img-top" alt="..." />
+            <img src="{{dish.image}}" class="card-img-top" alt="..." / oncontextmenu="return false">
             <div class="card-body">
               <h4 class="card-title">{{dish.name}}</h5>            
               <p class="card-text mt-3">{{dish.price | currency: "₦"}} </p>
@@ -149,7 +149,7 @@
         <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4 dishes foreign" ng-repeat="snack in fastfood | filter: searchFastFoods" >
         
           <div class="card" >
-            <img src="{{snack.image}}" class="card-img-top" alt="..." />
+            <img src="{{snack.image}}" class="card-img-top" alt="..." / oncontextmenu="return false">
             <div class="card-body">
               <h4 class="card-title">{{snack.name}}</h5>            
               <p class="card-text mt-3">{{snack.price | currency: "₦"}} </p>
@@ -178,7 +178,7 @@
         <div class="col-lg-4 col-md-9 mx-md-auto my-md-4 my-sm-4 dishes foreign" ng-repeat="drink in drinks | filter: searchDrinks" >
         
           <div class="card" >
-            <img src="{{drink.image}}" class="card-img-top" alt="..." />
+            <img src="{{drink.image}}" class="card-img-top" alt="..." / oncontextmenu="return false">
             <div class="card-body">
               <h4 class="card-title">{{drink.name}}</h5>            
               <p class="card-text mt-3">{{drink.price | currency: "₦"}} </p>
@@ -205,7 +205,7 @@
       <div class=" bg-info ">
 
         <div class="card"  style="box-shadow: none;">
-          <img src="{{dessert.image}}"  class="card-img-top" alt="..." />
+          <img src="{{dessert.image}}"  class="card-img-top" alt="..." / oncontextmenu="return false">
           <div class="card-body">
             <h6 style="font-size: 1.1rem;" class="card-text text-center my-1">{{dessert.name}}</h6>
           </div>
