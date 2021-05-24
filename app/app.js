@@ -209,8 +209,10 @@ myModule.controller('AboutController', ['$scope',  function($scope){
     // INTRO IMAGES
     $scope.staff = {introimage: 'content/img/AboutPage/intro-staff-image.jpg'}
     $scope.location = {introimage: 'content/img/AboutPage/intro-loaction-image.jpg'}
-    
-    
+    // ICONS
+    $scope.birthdayparty = {image: 'content/icons/cake.png'}
+    $scope.businessmeeting = {image: 'content/icons/meeting.png'}
+    $scope.weddingparty = {image: 'content/icons/wedding-arch.png'}
 }])
 
 // CONTACT PAGE CONTROLLER

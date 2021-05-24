@@ -49,6 +49,8 @@ text-decoration: none;
 .about-intro p{
   width: 400px;
   font-size: 1.05rem;
+  /* font-weight: 450; */
+    color: grey;
 }
 .about-intro .phone{
   color: #ff9800;
