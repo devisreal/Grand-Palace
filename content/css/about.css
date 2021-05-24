@@ -40,3 +40,18 @@ text-decoration: none;
   transition: 0.1s;
   text-decoration-color: #ff9800;
 }
+.about-intro h1{
+  font-family: Sofia;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ff9800;
+}
+.about-intro p{
+  width: 400px;
+  font-size: 1.05rem;
+}
+.about-intro .phone{
+  color: #ff9800;
+  font-family: poppins;
+  font-weight: bold;    
+}
