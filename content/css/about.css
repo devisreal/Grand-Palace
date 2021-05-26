@@ -14,10 +14,37 @@ text-decoration: none;
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 980px){
+  .specialty p{
+    width: 500px;
+    margin: 0px auto;
+  }
+}
 @media screen and (max-width: 575px) {
   .staff-info{
     margin: 10px auto;
     width: 80%;
+  }
+  .intro-image .img1{
+    /* margin: 20px ; */
+  }
+  .intro-image .img2{
+    display: none;
+  }
+  .about-intro h1, p{
+    text-align: center;
+  }
+  .about-intro h1{
+    margin-top: 20px;
+  }
+  .qualifications{
+    margin: 30px auto;
+  }
+  .qualifications .points{
+    margin: 15px 0px;
+  }
+  .specialty p{
+    width: fit-content;
   }
 }
 .head-text{
@@ -55,7 +82,7 @@ text-decoration: none;
   color: #ff9800;
 }
 .about-intro p{
-  width: 400px;
+  /* width: 400px; */
   font-size: 1.05rem;
   /* font-weight: 450; */
     color: grey;
