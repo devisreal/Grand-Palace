@@ -213,6 +213,18 @@ myModule.controller('AboutController', ['$scope',  function($scope){
     $scope.birthdayparty = {image: 'content/icons/cake.png'}
     $scope.businessmeeting = {image: 'content/icons/meeting.png'}
     $scope.weddingparty = {image: 'content/icons/wedding-arch.png'}
+    // STAFFS
+    $scope.olivia = {picture: 'content/img/AboutPage/staff/Olivia.png'}
+    $scope.camila = {picture: 'content/img/AboutPage/staff/Camila.jpg'}
+    $scope.cody = {picture: 'content/img/AboutPage/staff/Cody.jpg'}
+    $scope.joseph = {picture: 'content/img/AboutPage/staff/Joseph.jpg'}
+    $scope.nicholas = {picture: 'content/img/AboutPage/staff/Nicholas.jpg'}
+    $scope.mark = {picture: 'content/img/AboutPage/staff/Mark.jpg'}
+    $scope.olatunde = {picture: 'content/img/AboutPage/staff/Olatunde.jpg'}
+    $scope.adeola = {picture: 'content/img/AboutPage/staff/Adeola.jpg'}
+    $scope.steven = {picture: 'content/img/AboutPage/staff/Steven.jpg'}
+    $scope.richard = {picture: 'content/img/AboutPage/staff/Richard.jpg'}
+    $scope.william = {picture: 'content/img/AboutPage/staff/William.jpg'}
 }])
 
 // CONTACT PAGE CONTROLLER

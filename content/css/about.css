@@ -12,6 +12,14 @@ body{
 *{
 text-decoration: none;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 575px) {
+  .staff-info{
+    margin: 10px auto;
+    width: 80%;
+  }
+}
 .head-text{
   width: auto;
   height: 550px;
@@ -57,3 +65,36 @@ text-decoration: none;
   font-family: poppins;
   font-weight: bold;    
 }
+
+  .specialty h4{
+    font-family: poppins;
+  }
+  .specialty h1{
+    color: #ff9800;
+    font-family: Sofia;
+    font-weight: bold;
+    font-size: 2.9rem;
+  }
+  .specialty p{
+    font-size: 1.15rem;
+  }
+    .qualifications h1{
+    color: #ff9800;
+    font-family: poppins;
+    font-weight: 500;
+  }
+  .qualifications p{
+    font-weight: 450;
+    color: grey;
+    font-size: 0.9rem;
+  }
+
+  .staff-info img{
+    border: 1px solid #ff9800;
+
+  }
+  .staff-info h6{
+    font-family: poppins;
+    color: black;
+    font-size: 1.3rem;
+  }
