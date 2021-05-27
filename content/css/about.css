@@ -93,7 +93,7 @@ text-decoration: none;
   .specialty h4{
     font-family: poppins;
   }
-  .specialty h1{
+  .specialty h1, .staff-section h1{
     color: #ff9800;
     font-family: Sofia;
     font-weight: bold;
