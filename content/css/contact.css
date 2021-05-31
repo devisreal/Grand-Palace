@@ -6,9 +6,6 @@
   transform: none;
   transition: none;
 }
-body{
-  overflow-x: hidden;
-}
 
 *{
         text-decoration: none;
@@ -42,3 +39,80 @@ body{
         transition: 0.1s;
         text-decoration-color: #ff9800;
     }
+
+    .questions h2{
+      font-family: poppins;
+    }
+
+    .a-card {
+      /* height: 300px; */
+      transition: 0.5s;
+
+    }
+
+    .a-card:hover{
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      transition: 0.5s;
+    }
+    .address-card i{
+      color: #03fc03;
+      filter: opacity(80%);
+    }
+    .address-card h4{
+      font-family: itim;
+    }
+
+    @media screen and (max-width: 767px){
+      .address-card{
+        width: 320px;
+        margin: auto;
+    }
+    }
+    @media screen and (max-width: 575px){
+      .address-card{
+        margin: 20px auto;
+      }
+      .form{
+        text-align: center;
+        margin-top: 110px;
+      }
+      .map {
+        width: 100px;
+        height: 450px;
+      }
+    }
+    .map iframe{
+      width: 530px;
+      height: 500px;
+    }
+    .form h2{
+      font-family: sofia ;
+      font-weight: bold;
+      font-size: 40px;
+      color: #ff9800;
+    }
+    form input{
+      height: 50px;
+    }
+
+    
+  
+    .text-area::-webkit-scrollbar {
+      width: 6px;
+    } 
+
+/* Track */
+.text-area::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+.text-area::-webkit-scrollbar-thumb {
+  background: #ff9800; 
+}
+
+/* Handle on hover */
+.text-area::-webkit-scrollbar-thumb:hover {
+  background: #f3960b; 
+}
