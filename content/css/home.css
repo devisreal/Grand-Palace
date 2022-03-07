@@ -135,8 +135,8 @@
   text-align: left;
   font-family: 'Pacifico', cursive;
   font-weight: 500;
-  text-decoration: underline;
-  text-decoration-color: #03fc03;
+  /* text-decoration: underline; */
+  /* text-decoration-color: #03fc03; */
   text-decoration-style: double;
 }
 .carousel-caption .firstH1 i{
